@@ -26,11 +26,8 @@ int main()
     Individuo *zorro = new Individuo("Zorro", 1);
 	Individuo *conejo = new Individuo("Conejo", 2);
     Individuo *lechuga = new Individuo("Lechuga", 3);
-    Individuo *oso = new Individuo("Oso", 4);
-    Individuo *manzana = new Individuo("Manzana", 5);
-    Individuo *vaca = new Individuo("Vaca", 6);
 
-    vector <Individuo *> individuos = {robot, zorro, conejo, lechuga, oso, manzana, vaca};
+    vector <Individuo *> individuos = {robot, zorro, conejo, lechuga};
 
 	Orilla *orillaIzquierda;
     Orilla *orillaDerecha;
@@ -51,6 +48,7 @@ int main()
     do
     {
 		nuevoJugador.Jugar();
+        
     }while(nuevoJugador.comprobarEstadoDeJuego());
     
 
