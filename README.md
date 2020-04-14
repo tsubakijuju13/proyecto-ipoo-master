@@ -2,7 +2,8 @@
 
 Repositorio creado para almacenar el proyecto de la asignatura Introducción a la Programación Orientada a Objetos.
 
-Autor(es): Daniel Felipe Vélez C. - 1924306
+Autores: Daniel Felipe Vélez C. - 1924306
+         Santiago Ramirez Ospina - 1841391
 
 ## Objetivo:
 Implementar un juego de lógica usando C++ con metodología de programación orientada
