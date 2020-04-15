@@ -13,7 +13,7 @@
 #include "Barca.h"
 #include <iostream>
 
-Barca::Barca(std::string _nombre, Lugar *unVecino, Individuo *_elGuardian, int laCapacidad) : Lugar(_nombre, unVecino, _elGuardian)
+Barca::Barca(std::string _nombre, Orilla *unVecino, Individuo *_elGuardian, int laCapacidad) : Lugar(_nombre, unVecino, _elGuardian)
 {
   capacidad = laCapacidad;
 }
@@ -23,7 +23,7 @@ Barca::~Barca()
     /*No hace nada*/
 }
 
-void Barca::agregarVecinos(Lugar *unVecino, Lugar *otroVecino)
+void Barca::agregarVecinos(Orilla *unVecino, Orilla *otroVecino)
 {
     laOrillaIzquierda = unVecino;
     laOrillaDerecha = otroVecino;

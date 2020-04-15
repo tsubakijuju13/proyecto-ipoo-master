@@ -32,15 +32,15 @@
 class Barca : public Lugar
 {
     protected:
-        Lugar *laOrillaDerecha;
-        Lugar *laOrillaIzquierda;
+        Orilla *laOrillaDerecha;
+        Orilla *laOrillaIzquierda;
         int capacidad;
         
     public:
         /**
          * Constructor
         */
-        Barca(std::string _nombre, Lugar *unVecino, Individuo *Guardian, int laCapacidad);
+        Barca(std::string _nombre, Orilla *unVecino, Individuo *Guardian, int laCapacidad);
 
         /**
          * Destructor
@@ -50,7 +50,7 @@ class Barca : public Lugar
         /**
          * agregarVecinos establece los Lugares vecinos que conoce la barca
         */
-        virtual void agregarVecinos(Lugar *unVecino, Lugar *otroVecino);
+        virtual void agregarVecinos(Orilla *unVecino, Orilla *otroVecino);
 
         /**
          * moverBarca cambio el vecino actual de la Barca por el otro Lugar que conoce
