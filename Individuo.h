@@ -3,9 +3,10 @@
   Autores: 
         -Daniel Felipe Vélez Cuaical
         -Santiago Ramirez Ospina
+        -Julián Andrés Orejuela Erazo
     
   Fecha creación: marzo-31-2020
-  Fecha última modificación: abril-04-2020
+  Fecha última modificación: abril-17-2020
   Versión: 0.1
   Licencia: GPL v3.0
 */

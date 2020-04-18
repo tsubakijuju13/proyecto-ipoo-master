@@ -3,9 +3,10 @@
   Autores: 
         -Daniel Felipe Vélez Cuaical
         -Santiago Ramirez Ospina
+        -Julián Andrés Orejuela Erazo
     
   Fecha creación: marzo-31-2020
-  Fecha última modificación: abril-10-2020
+  Fecha última modificación: abril-17-2020
   Versión: 0.1
   Licencia: GPL v3.0
 */
@@ -16,6 +17,7 @@
     Relaciones: 
         -posee Individuos (es propietario) usando un vector de punteros a Individuos
         -conoce un Lugar 
+
     Utilidad: 
 
     Atributos: 
@@ -103,7 +105,7 @@ class Lugar
         virtual string mostrarVecino();
 
         /**
-         * retornarIndividuo retorna la dirección en memeria del individuo en la posicion i del vector
+         * retornarIndividuo retorna la dirección en memoria del individuo en la posicion i del vector
         */
         virtual Individuo* retornarIndividuo(int i);
 
