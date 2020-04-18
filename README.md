@@ -23,7 +23,7 @@ lograr que el robot transporte los tres individuos a la otra orilla, sanos y sal
 
 <!-- Tareas pendientes | Github markdown -->
 <!-- marcar con una [x] cuando esten completos -->
-## Pendiente
+## Tareas pendientes
 
 * [ ] Task 1: Reducir los métodos de la clase Lugar.
 * [ ] Task 2: Resolver el error de Violación de segmento al tratar de llevar a la barca un individuo que está en la orilla derecha.
